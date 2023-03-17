@@ -96,7 +96,7 @@ span {
   height: 400px;
   color: black;
   display: block;
-  margin-bottom: 8rem;
+  margin-bottom: -6rem;
   border-radius: 0% 100% 50% / 0% 100% 0%;
   border: 50px;
   animation: floatImage 4s ease-in-out infinite;
@@ -333,6 +333,7 @@ box-shadow: 0 0 1rem var(--main-color);
   }
   section{
     padding: 2rem 3% 2rem;
+    margin-top: 10rem;
   }
     .footer{
     padding: 2rem 3%;
@@ -367,21 +368,32 @@ flex-direction: column;
  }
  .home img{
 width: 70vw;
-margin-top: 4rem;
+margin-top: 13rem;
  }
  .home-content h3{
-font-size: 2.6rem
+font-size: 2.6rem;
+
  }
  .home-content h1{
 font-size: 4rem;
 
  }
+   .about h2{
+margin: 2rem;
+text-align: center;
+ }
+   .about p{
+margin: 2rem;
+text-align: center;
+ }
   .about{
 flex-direction: column;
+text-align: center;
  }
  .about img{
 width: 70vw;
 margin-top: 4rem;
+
  }
  .project h2{
 font-size: 3rem

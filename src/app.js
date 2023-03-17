@@ -58,4 +58,12 @@ window.onscroll = () => {
     { origin: "left",
     });
 
-      ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right'});
+   ScrollReveal().reveal('.home-content p, .about-content', 
+   { origin: 'right'});
+   const typed = new Typed('.mutiple-text', {
+     strings: ['', 'Frontend Developer', 'Designer'],
+     typeSpeed: 100,
+     backSpeed: 100,
+     backDelay: 100,
+     loop: true,
+   });
