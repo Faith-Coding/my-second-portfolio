@@ -332,7 +332,7 @@ box-shadow: 0 0 1rem var(--main-color);
     padding: 2rem 3%;
   }
   section{
-    padding: 2rem 3% 2rem;
+    padding: 2rem 15% 2rem;
     margin-top: 10rem;
   }
     .footer{
@@ -342,6 +342,10 @@ box-shadow: 0 0 1rem var(--main-color);
  @media(max-width: 768px) {
  #menu-icon{
   display: block;
+  padding-right: 3.5rem;
+  
+  
+  
  }
   .nav-bar {
   position: absolute;
@@ -356,6 +360,7 @@ box-shadow: 0 0 1rem var(--main-color);
  }
  .nav-bar.active{
   display: block;
+  
 
  }
   .nav-bar a{
