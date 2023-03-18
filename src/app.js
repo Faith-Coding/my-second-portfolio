@@ -1,7 +1,7 @@
 /*================toggle icon navba=======*/
 
 let menuIcon = document.querySelector('#menu-icon');
-let navBar = document.querySelector('.navbar');
+let navBar = document.querySelector('.nav-bar');
 
 menuIcon.onclick = () => {
   menuIcon.classList.toggle('fa-x');
