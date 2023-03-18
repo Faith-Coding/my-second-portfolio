@@ -343,7 +343,7 @@ box-shadow: 0 0 1rem var(--main-color);
  #menu-icon{
   display: block;
  }
-   .nav-bar {
+  .nav-bar {
   position: absolute;
   top: 100%;
   left: 0;

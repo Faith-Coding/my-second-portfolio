@@ -35,7 +35,8 @@ window.onscroll = () => {
   header.classList.toggle("sticky", window.scrollY > 100);
 
   /*================remove toggle icon and navbar scroll=======*/
-  menuIcon.classLists.remove("fa-x");
+  
+  menuIcon.classList.remove("fa-x");
   navBar.classList.remove("active");
 
   /*================sticky navbar=======*/
