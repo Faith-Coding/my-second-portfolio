@@ -111,20 +111,25 @@ transform: translateY(0);
 }
 .home-content p {
     font-size: 1.5rem;
+    margin-bottom: 1.3rem;
+   
 }
+
 .social-media a{
   display: inline;
   justify-content: center;
   align-items: center;
   width: 4rem;
-  height: 4rem;
+  height: 1rem;
+  padding: .8rem 1rem;
   background: transparent;
-  border: .2rem solid var(--main-color);
+  border: .1rem solid var(--main-color);
   border-radius: 50%;
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: var(--main-color);
-  margin: 3rem 1.5rem 3rem  0;
-  transition: .2s;
+  margin: 2rem .5rem 2rem  0;
+  transition: all 100ms ease-in-out;
+  margin-bottom: 60rem;
 }
 .social-media a:hover {
  background: var(--main-color);
@@ -179,8 +184,41 @@ transform: translateY(0);
     font-size: 1rem;
     margin: 2rem 0 3rem;
 }
-/*-------------about section starts-------*/
+/*-------------about section ends-------*/
+
+/*-------------skillssection starts-------*/
+.skills{
+  background: var(--second-bg-color);
+}
+.skills-grid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  grid-gap: 2rem;
+ transition: opacity 0.1s ease-in;  
+}
+.skills img:hover{
+transform: scale(2);
+}
+.skills img{
+  width: 100%;
+  height: auto;
+}
+.skills h3{
+text-align: center;
+text-transform: capitalize;
+font-size: 1rem;
+font-weight: 100;
+}
+
+
+
+
+/*-------------skillssection ends-------*/
+
+
+
 /*-------------project section starts-------*/
+
 
 .project{
     background: var(--second-bg-color);
@@ -253,6 +291,36 @@ transform: translateY(0);
  padding: 1rem;
 }
 /*-------------project section ends-------*/
+
+/*------------- certificate section starts-------*/
+.certificate{
+  background: var(--second-bg-color);
+}
+.certificate-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 1rem;
+ transition: all 100s ease-in-out 
+}
+.certificate-image:hover{
+width: 30rem;
+}
+.certificate-image img{
+  width: 100%;
+  height: auto;
+}
+.certificate p{
+text-align: center;
+text-transform: capitalize;
+font-size: 1rem;
+font-weight: 100;
+}
+
+
+
+
+/*-------------certificate section ends-------*
+
 /*-------------contact section starts-------*/
 
 .contact h2
@@ -303,6 +371,13 @@ cursor: pointer;
 .footer-text p{
   font-size: 1.6rem;
 }
+.footer-text a{
+  color: var(--main-color);
+  font-weight: 1;
+}
+.footer-text a:hover{
+  color: rgba(42, 106, 245, 0.975);
+}
 .footer-iconTop a{
   display: inline-flex;
   justify-content: center;
@@ -310,6 +385,7 @@ cursor: pointer;
   padding: .8rem;
   background: var(--main-color);
   border-radius: .8rem;
+
   transition: .5s ease;
 }
 .footer-iconTop a{
@@ -343,9 +419,6 @@ box-shadow: 0 0 1rem var(--main-color);
  #menu-icon{
   display: block;
   padding-right: 3.5rem;
-  
-  
-  
  }
   .nav-bar {
   position: absolute;
@@ -360,8 +433,6 @@ box-shadow: 0 0 1rem var(--main-color);
  }
  .nav-bar.active{
   display: block;
-  
-
  }
   .nav-bar a{
   display: block;
@@ -400,6 +471,14 @@ width: 70vw;
 margin-top: 4rem;
 
  }
+ .skills .heading{
+  font-size: 3rem;
+  margin: 2rem;
+ }
+ .skills-grid{
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem  
+}
  .project h2{
 font-size: 3rem
  }
@@ -409,6 +488,9 @@ grid-template-columns: repeat(2, 1fr);
  .home-content h1{
 font-size: 4rem
  }
+ .certificate-grid{
+  grid-template-columns: 1fr; 
+}
 }
 @media(max-width: 617px) {
    .project-container{
